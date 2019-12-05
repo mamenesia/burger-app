@@ -1,0 +1,17 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        // "plugin:react/recommended",
+        "airbnb",
+        "prettier"
+    ],
+    "plugins": [
+        "react", "prettier"
+    ],
+    "rules": {
+        "no-unused-vars": "warn"
+    }
+}
