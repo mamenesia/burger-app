@@ -4,14 +4,24 @@
         "es6": true
     },
     "extends": [
-        // "plugin:react/recommended",
+        "plugin:react/recommended",
         "airbnb",
         "prettier"
     ],
+    "parser": "babel-eslint",
     "plugins": [
         "react", "prettier"
     ],
     "rules": {
-        "no-unused-vars": "warn"
+        "no-unused-vars": "warn",
+        "react/jsx-filename-extension": "off",
+        "react/prefer-stateless-function": "off",
+        "react/prop-types": "off",
+        "react/destructuring-assignment": "off",
+        "react/no-array-index-key": "warn",
+        "react/state-in-constructor": "off",
+        "react/no-access-state-in-setstate": "warn",
+        "no-restricted-syntax": "warn",
+        "guard-for-in": "warn"
     }
 }
